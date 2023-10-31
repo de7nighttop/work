@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+}
+.menus {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+.menus li a {
+  text-decoration: none;
+  color: black;
+}
+nav {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+.black-btn {
+  color: white;
+  background-color: black;
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+}
+
+.business {
+  padding: 90px 0;
+  display: flex;
+  gap: 74px;
+}
+.business-text h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 78px;
+}
+
+.business-text p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  margin: 20px 0;
+}
+.green-btn {
+  color: white;
+  background-color: rgba(26, 171, 123, 1);
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+}
+
+.services {
+  background: rgba(242, 244, 246, 1);
+  padding: 50px;
+  text-align: center;
+}
+.service-box{
+    margin: 40px 0;
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+.card {
+  width: 31%;
+  padding: 40px 30px;
+  text-align: left;
+  background-color: #fff;
+  border-radius: 6px;
+  border: 2px solid rgba(225, 231, 237, 1);
+  transition: 1s;
+}
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  background: rgba(225, 231, 237, 1);
+  color: rgba(26, 171, 123, 1);
+}
+.card p{
+  margin: 20px 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  color: black;
+}
+
+.card a{
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.card:hover{
+    background-color: rgba(26, 171, 123, 1);
+}
+.card:hover  .card-header h2{
+    color: white;
+}
+.card:hover .card-text{
+    color: #fff;
+}
+.card:hover .card-link{
+    color: #fff;
+    text-decoration: underline;
+}
+.new{
+  text-align: center;
+}
+.test{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  width: 100%;
+  margin: 40px 0;
+}
+.test1{
+text-align: center;
+}
+.ga{
+  text-align: center;
+}
+.car{
+  width: 180px;
+  height: 59px;
+  border-radius: 6px;
+  background-color: #1AAB7B;
+  border: none;
+}
+.aria{
+  text-align: center;
+  color: #858EA1;
+}
+.nen{
+  display: flex;
+  gap: 80px;
+  background-color: rgb(255, 255, 255);
+  color: #fff;
+  background-color: black;
+}
